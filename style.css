@@ -1,0 +1,55 @@
+.col{
+    border-radius: 30px;
+    min-height: 530px;
+    transition: .5s;
+   
+}
+.col:hover{
+    transform:translateY(-40px);
+    background-color: rgb(44, 189, 44);
+    transition: 0.5s;
+    
+}
+.col:hover .tit {
+color:white;
+}
+.cards2 .col:hover .svg-icon{
+    fill:#fff;
+}
+hr{
+    width: 56px;
+    margin:35px auto auto  ;
+    background-color: black;
+}
+.font{
+  
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 38px;
+}
+.font1{
+    color:rgb(83, 95, 126);
+    font-weight: 500;
+}
+
+.boxi{
+    border-radius:30px;
+}
+.car{
+    min-height: 620px;
+    border-radius:30px;
+}
+
+
+@media  screen and (max-width:1024px) {
+    .car{
+        min-height: 675px;
+    }
+    .col{
+        min-height: 540px;
+    }
+    .imag{
+        display: none;
+    }
+}
